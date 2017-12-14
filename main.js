@@ -3,7 +3,9 @@
  * Module to convert WebM blob to MP3 blob
  * Author : Yoann Chane Kive
  */
- if (window.Worker) {
+
+ var worker = require('webworker-threads').Worker;
+ // if (window.Worker) {
    var CHUNK_SIZE = 20000000;
    var audioCtx = new (window.AudioContext || webkitAudioContext)(); //new AudioContext();
    let datas = [];
@@ -63,7 +65,7 @@
        return mp3Blob;
      }
    };
- } else { console.log("Worker not support !") }
+ // } else { console.log("Worker not support !") }
 
  // let analyzerModule = (function() {
  //

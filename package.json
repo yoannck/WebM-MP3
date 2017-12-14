@@ -19,5 +19,7 @@
     "blob"
   ],
   "license": "MIT",
-  "dependencies": {}
+  "dependencies": {
+    "webworker-threads": "latest"
+  }
 }
