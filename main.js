@@ -7,7 +7,7 @@
  // var worker = require('webworker-threads').Worker;
  // if (window.Worker) {
    var CHUNK_SIZE = 20000000;
-   var audioCtx = new (window.AudioContext || webkitAudioContext)(); //new AudioContext();
+   var audioCtx = new AudioContext();
    let datas = [];
    let limit = 1;
    let time = 0;
