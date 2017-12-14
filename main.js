@@ -4,7 +4,7 @@
  * Author : Yoann Chane Kive
  */
 
- var worker = require('webworker-threads').Worker;
+ // var worker = require('webworker-threads').Worker;
  // if (window.Worker) {
    var CHUNK_SIZE = 20000000;
    var audioCtx = new (window.AudioContext || webkitAudioContext)(); //new AudioContext();
