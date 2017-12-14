@@ -1,0 +1,23 @@
+{
+  "name": "webm-mp3",
+  "version": "0.0.1",
+  "description": "Module to convert WebM blob to MP3 blob",
+  "author": "Yoann Chane Kive <yoannck@gmail.com> (http://yoannck.com)",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/yoannck/WebM-MP3.git"
+  },
+  "keywords": [
+    "helper",
+    "convert",
+    "webm",
+    "mp3",
+    "blob"
+  ],
+  "license": "MIT",
+  "dependencies": {}
+}
