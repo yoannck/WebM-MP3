@@ -8,17 +8,18 @@ The module uses https://github.com/higuma/mp3-lame-encoder-js
 
 ```javascript
 
-var webmBlob = convertModule.getWebmBlob('URL WEBM');
-// OR webmBlob : from XMLHttpRequest / stream / etc ...
+W3Module.getWebmBlob('URL WEBM').then( (webmBlob) => { /* YOUR CODE */ } );
+// OR GET webmBlob on your way : from XMLHttpRequest / stream / etc ...
 
-convertModule.convertWebmToMP3(webmBlob);
+...
 
-var mp3Blob = convertModule.getMP3Blob();
+W3Module.convertWebmToMP3(webmBlob).then( (mp3Blob) => { /* YOUR CODE */ } );
+
 
 ```
 
 ## Install
 
 ```javascript
-<script src="module.js"></script>
+<script src="W3Module.js"></script>
 ```
