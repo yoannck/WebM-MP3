@@ -22,4 +22,6 @@ W3Module.convertWebmToMP3(webmBlob).then( (mp3Blob) => { /* YOUR CODE */ } );
 
 ```javascript
 <script src="W3Module.js"></script>
+<script src="schema-ebml.js"></script>
+<script src="lib-ebml.js"></script>
 ```
